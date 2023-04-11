@@ -1,0 +1,33 @@
+section {
+    padding-bottom: 50px;
+
+border-bottom: black solid 1px;
+    }
+   section:first-child h4 {
+color: blue;
+    }
+
+    section:nth-child(2){
+border-bottom: 5px solid red;
+    }
+
+    h3, ul{ 
+color: red;
+   }
+
+   section:nth-child(4) ul>li>a{
+font-size: 25px;
+
+   }
+   h3+span {
+color: blue;
+
+   }
+ img[src="https://media.giphy.com/media/jB5yvgkfOa5VK/giphy.gif"] {
+    border: 2px solid black;
+    border-radius: 50%;
+   }
+
+    section:nth-child(7) p:hover {
+        color: #01ff80; font-weight: bold;
+    }
