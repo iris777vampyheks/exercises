@@ -1,0 +1,154 @@
+section{
+    border-bottom: 5px solid;
+}
+/* début exo 01 les_hover_01 */
+.bg-color{
+    background-color: lightskyblue;
+    height: 150px;
+    width: 150px;
+}
+/* fin exo 01 les_hover_01 */
+.bg-color:hover{
+    background-color: purple;
+}
+/* début exo 02 les_hover_02 */
+.height_and_width{
+    background-color: rgb(21, 123, 217);
+}
+
+
+/* fin exo 02 les_hover_02 */
+
+.height_and_width{
+height: 150px;
+width: 150px;  
+}
+.height_and_width:hover{
+    height: 200px;
+    width: 500px;
+    background-color: lightblue;
+}
+
+/* début exo 03 les_focus_03 */
+
+.border-color:focus{
+    border: 3px solid blue;
+    border-radius: 10px;
+    outline: none;
+}
+/* fin exo 03 les_focus_03 */
+
+
+
+/* début exo 04 les transitions */
+
+.transition_04{
+    height: 150px;
+    width: 150px;
+    background-color: yellow;
+    transition: 4s;
+}
+
+/* fin exo 04 les transitions */
+
+.transition_04:hover{
+    background-color: red;
+    
+}
+
+/* début exo 05 les transitions */
+
+.transition_05{
+    background-color:rgb(255, 78, 14) ;
+    height: 150px;
+width: 150px;   
+ transition:2s;
+}
+/* fin exo 05 les transitions */
+
+.transition_05:hover{
+    background-color:purple;
+    border-radius:50%;
+}
+
+/* début exo 06 les transitions */
+.transition_06{
+background-color:grey;
+height: 150px;
+width: 50px;
+transition: 3s;
+}
+
+
+/* fin exo 06 les transitions */
+.transition_06:active{
+margin-left: 300px;
+}
+/* début exo 07 les transitions */
+.transition_07{
+    background-color: green;
+    height: 150px;
+    width: 50px;
+    transition: 3s;
+}
+/* fin exo 07 les transitions */
+.transition_07:active{
+    margin-left: 80%;
+}
+/* début exo 08 les transitions */
+.transition_08{
+    background-color: lightblue;
+    height: 150px;
+    width: 50px;
+    transition: 3s;
+}
+/* fin exo 08 les transitions */
+.transition_08:active{
+    border-radius: 50%;
+    height: 50px;
+    margin-left: 70%;
+    background-color: purple;
+}
+/* début exo 09 les transitions */
+.transition_09{
+background-color: blue;
+width: 150px;
+height: 150px;
+transition: 3s;
+}
+/* fin exo 09 les transitions */
+.transition_09_enfant{
+background-color: lightblue;
+height: 20%;
+width: 20%;
+}
+.transition_09:active .transition_09_enfant{
+    background-color: red;
+}
+
+
+/* début exo 10 les transitions */
+.transition_10{
+    background-color: yellow;
+    width: 150px;
+    height: 150px;
+    transition: 3s;
+}
+.transition_10_intrus{
+    background-color:aqua;
+    width: 40%;
+    height: 40%;
+    border-radius: 50%;
+    transition: 3s;
+}
+.transition_10:active{
+    margin-left: 90%;
+    border-radius: 50%;
+    background-color: orange;
+}
+.transition_10:active .transition_10_intrus{
+    margin-left: 100%;
+    border-radius: 0%;
+    background-color: purple;
+
+}
