@@ -4,10 +4,10 @@ div {
   animation-fill-mode: forwards;
   animation-direction: reverse;
 }
-@keyframes mymove 
+@keyframes mymove{ 
     from {left:0px;} /* 0% */
     to {left: 1000px;} /* 100% */
-  
+}
 
 #bounce-title{
 animation-timing-function: ease-in-out;
