@@ -1,0 +1,40 @@
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    
+}
+.rouge{
+background-color: red;
+}
+.vert{
+    background-color: green;
+}
+.orange{
+    background-color: orange;
+}
+@media (min-width:1025px) {
+    .carre{
+        width: 33.3vw;
+        height: 200px;
+       
+    }
+    
+}
+@media (min-width:600px) and (max-width:1024px) {
+    .carre{
+        width:50vw;
+        height: 200px;
+       
+    }
+    
+}
+@media (min-width:320px) and (max-width:599px) {
+    .carre{
+        width:100vw;
+        height: 200px;
+        
+    }
+    
+    
+}

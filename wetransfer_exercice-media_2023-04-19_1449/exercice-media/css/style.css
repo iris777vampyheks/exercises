@@ -4,41 +4,46 @@ nav ul{
     list-style-type: none;
 }
 /*EXO1*/
-@media only screen and (min-width: 1250px) {
+  @media(min-width:1250px){
     .li-1{
-      color: rgb(39, 1, 249);
+       color: blue;
     }
-  }
-  .li-2{
-    color: rgb(0, 213, 46);
-  }
-  /*EXO2*/
-  @media only screen and (max-width: 1250px) {
-.list-2{
-  color:orange;
 }
-  }
-
-  @media only screen and (max-width: 1250px) {
-    .list-3{
-      background-color:rgb(239, 0, 0);
+@media (max-width:1250px){
+    .li-2{
+        color: green;
     }
-      }
+}
+  /*EXO2*/
+  @media (min-width:1250px) {
+    .item2 .li3{
+        color: orange;
+    }
+}
+@media (max-width:1250px) {
+    .item2 .li4{
+        color: red;
+    }
+}
 /*EXO3*/
 
-@media only screen and (max-width: 1000px) {
-  .exo3{
-    font-weight: bold;
+@media (max-width:1000px) {
+  .libold{
+  font-weight: bold;
+  text-decoration: underline;
+}
+ 
+  
+}
+@media (min-width:1250px) {
+  .italic{
+font-style: italic;
+color: blue;
   }
-    }
-    @media only screen and (min-width: 1250px) {
-      .exo-3{
-        font: italic;
-        color:rgb(0, 32, 242);
-      }
-        }
+  
+}
 /*EXO4*/
-@media only screen and (min-width: 800px) {
+@media only screen and (max-width: 800px) {
   .exoo4{
     border: 1cm;
     color: green;
@@ -51,7 +56,7 @@ nav ul{
       }
 
 /*EXO5*/
-@media (min-width: 900px) and (min-width: 1250px) {
+@media only screen and (min-width: 900px) and (min-width: 1250px) {
   .exo5{
 color: red;
 border: 2cm;
@@ -59,9 +64,26 @@ border: 2cm;
     }
 
 /*EXO6*/
-@media (min-width: 250px) and (min-width: 900px) {
+@media only screen and (min-width: 250px) and (min-width: 900px) {
   #exo6{
     background-image: url(../images/tartine.jpg) size: 250px 250px;
 
   }
     }
+    /*EXO7*/
+    @media only screen and (min-width: px) and (min-width: px){
+    .exo7{
+background-color: black;
+    }
+    }
+    /*EXO8*/
+    @media only screen and (min-width: 1250px){
+.exo8:hover{
+color: green;
+}
+    }
+    @media only screen and (max-width: 1250px){
+      .exo8:hover{
+      color: rgba(250, 46, 0, 0.973);
+      }
+          }
